@@ -9,3 +9,8 @@ service:
  endpoint:
   catalog: /catalog
   payment: /payment
+  
+management:
+  tracing:
+    sampling:
+      probabaility: 1.0
